@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9fbf9; /* Fundo mais claro e suave */
+    color: #4a4a4a; /* Texto em cinza escuro, mais confortável para ler */
+    line-height: 1.8; /* Espaçamento maior para facilitar a leitura */
+}
+
+header {
+    background-color: #4caf50; /* Verde mais amigável e alegre */
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+nav {
+    margin-top: -20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px; /* Botões arredondados e simpáticos */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #1b5e20;
+    transform: scale(1.05); /* Pequeno efeito de crescimento */
+}
+
+main {
+    max-width: 800px; /* Layout um pouco mais estreito e aconchegante */
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background: white;
+    margin-bottom: 2.5rem;
+    padding: 2.5rem;
+    border-radius: 15px; /* Bordas bem arredondadas */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05); /* Sombra bem suave */
+}
+
+section h2 {
+    color: #2e7d32;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    background-color: #e8f5e9;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.card label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #2e7d32;
+}
+
+.card input {
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    border: 2px solid #a5d6a7;
+    border-radius: 10px;
+    width: 100px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.card button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.card button:hover {
+    background-color: #388e3c;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#resultado {
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    min-height: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    font-weight: bold;
+}
